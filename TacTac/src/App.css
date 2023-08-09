@@ -1,0 +1,96 @@
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/***** BODY *****/
+.body {
+  background-color: #f6f3f3;
+  max-width: 94%;
+  margin: auto;
+  min-height: 500vh;
+}
+
+.menu {
+  width: 20%;
+  float: left;
+  border: 1px solid transparent;
+}
+
+.menu-fixed{
+  position: fixed;
+  height: 100%;
+}
+
+.main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-left-width: 2px;
+}
+
+.header-logo { 
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  font-family: Manrope-Bold;
+  font-size: 6vh;
+}
+
+.header-first {
+  color: #070707;
+}
+
+.header-second {
+  color: #070707;
+}
+
+.logo {
+  width: 6vh;
+  height: 6vh;
+  margin-right: 12px;
+}
+
+.feed{
+  width: 50%;
+  padding: none;
+  margin: none;
+}
+
+/***** MANROPE *****/
+/***** REGULAR *****/
+@font-face {
+  font-family: 'Manrope-Regular';
+  src: url('..//public/media/fonts/Manrope/Manrope-Regular.ttf') format('woff2'),
+       url('..//public/media/fonts/Manrope/Manrope-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***** BOLD *****/
+@font-face {
+  font-family: 'Manrope-Bold';
+  src: url('..//public/media/fonts/Manrope/Manrope-Bold.ttf') format('woff2'),
+       url('..//public/media/fonts/Manrope/Manrope-Bold.ttf') format('woff');
+}
+
+/***** LATO *****/
+/***** REGULAR *****/
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('..//public/media/fonts/Lato/Lato-Regular.ttf') format('woff2'),
+       url('..//public/media/fonts/Lato/Lato-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

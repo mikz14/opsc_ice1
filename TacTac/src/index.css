@@ -1,0 +1,53 @@
+/*******************************************************************************************************************/
+/*                                          RESOURCES                                                              */
+/*******************************************************************************************************************/
+
+/***** FONTS *****/
+/***** PLAYFAIRDISPLAY *****/
+/***** REGULAR *****/
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('..//public/media/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('woff2'),
+       url('..//public/media/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***** BOLD *****/
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url('..//public/media/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf') format('woff2'),
+       url('..//public/media/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***** LATO *****/
+/***** REGULAR *****/
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('..//public/media/fonts/Lato/Lato-Regular.ttf') format('woff2'),
+       url('..//public/media/fonts/Lato/Lato-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***** CAVEAT *****/
+/***** REGULAR *****/
+@font-face {
+  font-family: 'Caveat-Regular';
+  src: url('..//public/media/fonts/Caveat/Caveat-Regular.ttf') format('woff2'),
+       url('..//public/media/fonts/Caveat/Caveat-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***** SATISFY *****/
+/***** REGULAR *****/
+@font-face {
+  font-family: 'Kaushan-Regular';
+  src: url('..//public/media/fonts/Kaushan/KaushanScript-Regular.ttf') format('woff2'),
+       url('..//public/media/fonts/Kaushan/KaushanScript-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

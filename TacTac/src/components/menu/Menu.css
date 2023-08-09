@@ -1,0 +1,56 @@
+.nav-list {
+    list-style-type: none;
+    float: left;
+    font-family: Manrope-Regular;
+    font-size: 3vh;
+    padding-left: 0.5%;
+}
+
+.nav-list li {
+    display: flex;
+    align-items: center;
+    color: #087e8b;
+    line-height: 50px;
+}
+
+.nav-list li:hover {
+    cursor: pointer;
+    color: #ff5a5f;
+    transform: scale(1.1);
+}
+
+.icon {
+    display: inline-block;
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
+    background-size: cover;
+  }
+  
+  .icon-home {
+    background-image: url('/src/icons/home-svgrepo-com.svg'); 
+  }
+  
+  .icon-feed {
+    background-image: url('/src/icons/feed-svgrepo-com.svg'); 
+  }
+
+  .icon-post {
+    background-image: url('/src/icons/add-button-svgrepo-com.svg'); 
+  }
+
+  .icon-profile {
+    background-image: url('/src/icons/profile-round-1342-svgrepo-com.svg'); 
+  }
+  
+  .icon-login {
+    background-image: url('/src/icons/login-svgrepo-com.svg'); 
+  }
+
+/***** MANROPE *****/
+/***** REGULAR *****/
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url('/public/media/fonts/Manrope/Manrope-Regular.ttf') format('woff2'),
+         url('/public/media/fonts/Manrope/Manrope-Regular.ttf') format('woff');
+}

@@ -1,0 +1,13 @@
+.feed{
+    padding: none;
+    list-style-type: none;
+}
+
+.post{
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: none;
+    margin-bottom: 32px;
+    width: 120%;
+    height: 18%;
+}
